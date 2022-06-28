@@ -1,0 +1,17 @@
+{
+    "name": "User login chrome extension",
+    "description": "A simple chrome extension that requires the user to enter their name and password. Build in with React, Typescript and Tailwind.",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action" : {
+        "default_popup": "index.html"
+    },
+    "icons": { 
+        "16": "./images/icon-16.png",
+        "48": "./images/icon-32.png",
+       "128": "./images/icon-128.png" 
+    },
+    "permissions": [
+        "storage"
+      ]
+}
