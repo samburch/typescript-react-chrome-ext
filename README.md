@@ -33,4 +33,5 @@ git clone https://github.com/samburch/typescript-react-chrome-ext.git
 
 ### Notes
 
-The "chrome-extension-test-backend" is not required. I build this directory thinking initially that a backend server would be required for the test in order to authenticate users via social channels. I realised late on that this was not required when re-reading the test steps. It also wouldn't have made sense because the server wouldn't be able to access localStorage which is a key pass criteria for the test.
+* The "chrome-extension-test-backend" is not required. I created these server scripts thinking initially that a backend server would be required for the test in order to authenticate users via their preffered social platforms. 
+* I realised late on that this was not required when re-reading the test steps. It also wouldn't have made sense because the server wouldn't be able to access localStorage which is a key pass criteria for the test.
