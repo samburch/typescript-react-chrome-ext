@@ -2,6 +2,8 @@
 
 A chrome extension test for a full stack job interview. The design is my own and uses React, Typescript and Tailwind.
 
+This was my first time using Typescript.
+
 ## Getting Started
 
 ### Dependencies
@@ -12,48 +14,23 @@ A chrome extension test for a full stack job interview. The design is my own and
 
 ### Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+Steps to open the extension locally in Chrome
 
-### Executing program
-
-* How to run the program
-* Step-by-step bullets
+* Clone the repo
 ```
-code blocks for commands
+git clone https://github.com/samburch/typescript-react-chrome-ext.git
 ```
+* Open chrome and navigate to extension: chrome://extensions/
+* Switch to developer mode in top right if not already
+* Select 'Load unpacked' from top left and navigate to 'chrome-extension-test' -> 'dist' folder in order to add extension
+<img width="1081" alt="Screen Shot 2022-06-28 at 11 58 37" src="https://user-images.githubusercontent.com/7994248/176163632-a4ccec4e-2bcc-4401-abab-12c4fe0c02eb.png">
 
-## Help
+* Activate extension if not already active
+* Select extension from top right of chrome windor
 
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
+* Add any name to name field
+* Password must be 'password' to progress app to profile page
 
-## Authors
+### Notes
 
-Contributors names and contact info
-
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
-
-## Version History
-
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
-* 0.1
-    * Initial Release
-
-## License
-
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
-
-## Acknowledgments
-
-Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
+The "chrome-extension-test-backend" is not required. I build this directory thinking initially that a backend server would be required for the test in order to authenticate users via social channels. I realised late on that this was not required when re-reading the test steps. It also wouldn't have made sense because the server wouldn't be able to access localStorage which is a key pass criteria for the test.
