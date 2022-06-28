@@ -22,7 +22,7 @@ git clone https://github.com/samburch/typescript-react-chrome-ext.git
 ```
 * Open chrome and navigate to extension: chrome://extensions/
 * Switch to developer mode in top right if not already
-* Select 'Load unpacked' from top left and navigate to 'chrome-extension-test' -> 'dist' folder in order to add extension
+* Select 'Load unpacked' from top left and navigate to 'chrome-extension-test' and select 'dist' folder in order to add extension
 <img width="1081" alt="Screen Shot 2022-06-28 at 11 58 37" src="https://user-images.githubusercontent.com/7994248/176163632-a4ccec4e-2bcc-4401-abab-12c4fe0c02eb.png">
 
 * Activate extension if not already active
