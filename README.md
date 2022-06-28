@@ -8,8 +8,8 @@ This was my first time using Typescript.
 
 ### Dependencies
 
-* Front end: React, Typescript, Tailwind and fontawesome
-* Backend: Express and Passport (NOT REQUIRED TO RUN EXTENSION LOCALLY)
+* Frontend 'chrome-extension-test': React, Typescript, Tailwind and fontawesome
+* Backend 'chrome-extension-test-backend' : Express and Passport (NOT REQUIRED TO RUN EXTENSION LOCALLY)
 * Package manager: Vite
 
 ### Installing
